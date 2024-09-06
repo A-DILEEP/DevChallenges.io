@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+.page{
+    background-color: #E5EAF0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    width: 368px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0px 0px;
+}
+.card .img{
+    margin-bottom: 16px;
+}
+.card .img img{
+    height: 152px;
+    width: 336px;
+}
+
+.tag{
+    margin-bottom: 16px;
+}
+
+.tag p {
+    background-color: #E6D6FC;
+    color:#883AE1;
+    font-size: 10px;
+    width: 60px;
+    align-items: center;
+    padding: 5px 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    margin-bottom: 6px;
+}
+.heading p{
+    font-size: 18px;
+    color:#20293A;
+}
+
+.text p{
+    color:#6C727F;
+    text-align:left;
+    font-size: 14px;
+}
+
+.author{
+    width: 368px;
+    padding: 20px 16px;
+    background-color: #fff;
+    margin-top: 1px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.author p{
+    color:#6C727F;
+    font-size: 12px;
+
+}
